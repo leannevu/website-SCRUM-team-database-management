@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF8EA;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: orange;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Style the links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+
+.box {
+    margin-top: 75px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.sprint-box {
+    margin-top: 30px;
+    background-color: #EECD86;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.box h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px; /* Adjust height as needed */
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.box ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.box ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.about {
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.about table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.about table th, .about table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.about table th {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.highlighted {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Darker text color */
+}
